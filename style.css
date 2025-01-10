@@ -126,6 +126,26 @@ body {
     font-size: 1.1em;
     line-height: 1.8;
   }
+
+  /* App Icon Styling */
+  .app-icon img.rounded-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px; /* Rounded corners */
+    margin: 10px 0;
+    display: block;
+  }
+  
+  /* Hyperlink Styling */
+  a.hyperlink {
+    color: #ad1457;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a.hyperlink:hover {
+    text-decoration: underline;
+  }
   
   /* Responsive Design */
   @media (max-width: 768px) {
