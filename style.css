@@ -146,6 +146,25 @@ body {
   a.hyperlink:hover {
     text-decoration: underline;
   }
+
+  /* Styling for Dream Interpreter AI Section */
+#dream-interpreter {
+    margin-top: 20px;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Adjust the spacing between images */
+    margin-top: 20px;
+  }
+  
+  .dream-image {
+    width: 24%; /* Makes each image take up 24% of the row */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  }
+  
   
   /* Responsive Design */
   @media (max-width: 768px) {
