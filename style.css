@@ -149,6 +149,7 @@ body {
 
   /* Styling for Dream Interpreter AI Section */
 #dream-interpreter {
+    background-color: #f3e5f5; /* Light lavender for contrast */
     margin-top: 20px;
   }
   
@@ -184,6 +185,7 @@ body {
   }
   #deepshield {
     margin-top: 20px;
+    background-color: #f3e5f5; /* Light lavender for contrast */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -228,6 +230,34 @@ body {
   
   .quick-links a:hover {
     color: #ad1457; /* Dark pink on hover */
+    text-decoration: underline;
+  }
+  
+  #marketstream {
+    margin-top: 20px;
+    background-color: #f3e5f5; /* Light lavender for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #marketstream h2 {
+    color: #7b1fa2; /* Deep purple for title */
+  }
+  
+  #marketstream ul {
+    margin: 10px 0 20px 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  #marketstream a {
+    color: #6a1b9a; /* Bold purple links */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #marketstream a:hover {
     text-decoration: underline;
   }
   
