@@ -182,4 +182,31 @@ body {
       padding: 10px;
     }
   }
+  #deepshield {
+    margin-top: 20px;
+    background-color: #fce4ec; /* Soft pink for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #deepshield h2 {
+    color: #ad1457; /* Dark pink title */
+  }
+  
+  #deepshield ul {
+    margin: 10px 0 20px 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  #deepshield a {
+    color: #6a1b9a; /* Deep purple links */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #deepshield a:hover {
+    text-decoration: underline;
+  }
   
