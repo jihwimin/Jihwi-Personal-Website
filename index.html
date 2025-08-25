@@ -102,6 +102,17 @@
         <ul>
           <li>
             <div class="section-title">
+              <strong>Samsung Electronics DX</strong>
+              <img src="logos/samsung-logo.png" alt="Samsung Logo" class="logo">
+            </div>
+            (June 2025 – Aug 2025)<br>
+            Mobile Experience | Cloud Infra Group Intern<br>
+            * Designed and implemented <a href="#mobile-mcp"><strong>My Mobile MCP</strong></a>, an LLM-integrated mobile automation framework using Android Accessibility Service.<br>
+            * Developed Kotlin modules for function orchestration, real-time UI detection, and broadcast-based system control.<br>
+            * Built a retry and recovery system that improves reliability of automated mobile task execution.
+          </li>          
+          <li>
+            <div class="section-title">
               <strong>Finger (FinTech company), Seoul, Korea</strong> 
               <img src="logos/finger-logo.png" alt="Finger Logo" class="logo">
             </div>
@@ -126,6 +137,42 @@
         </ul>
       </section>
 
+      <!-- Mobile MCP Project -->
+      <section id="mobile-mcp" class="project-section">
+        <h2>My Mobile MCP – LLM-Powered Mobile Automation</h2>
+        <div class="project-content">
+          <img src="logos/samsung-logo.png" alt="Samsung Logo" class="project-logo">    <ul>
+            <li>
+              Engineered a Kotlin-based mobile automation framework that translates <strong>natural language commands</strong> (e.g., “Open Chrome,” “Send a text to John”) into a series of UI operations such as tap, swipe, type, and scroll, using Android’s <strong>Accessibility Service</strong>.
+            </li>
+            <li>
+              Designed the system architecture following the <strong>MCP (Model–Context–Protocol)</strong> principle, integrating a local LLM interface (ChatGPT/Groq) with a real-time command executor and context-aware task dispatcher to execute sequential mobile tasks reliably.
+            </li>
+            <li>
+              Developed a robust <strong>function orchestration engine</strong> with support for parallel task queues, error handling logic, and automated recovery via dynamic re-prompting when task execution fails or input is unclear.
+            </li>
+            <li>
+              Built modular components including:
+              <ul>
+                <li><strong>FunctionManager</strong> for queuing and retrying functions</li>
+                <li><strong>AccessibilityCommandManager</strong> for real-time detection of UI nodes</li>
+                <li><strong>ResponseHandler</strong> for feedback generation and prompt validation</li>
+                <li><strong>BroadcastReceivers</strong> for system-wide interactions (e.g., launching apps, controlling Wi-Fi)</li>
+              </ul>
+            </li>
+            <li>
+              Designed the full-stack interaction flow from <strong>user prompt → LLM prompt construction → command parsing → Accessibility Service execution</strong>, creating an intuitive personal LLM agent capable of handling general smartphone requests.
+            </li>
+            <li>
+              Successfully tested and deployed on Samsung Galaxy devices, and documented project milestones in internal presentations and technical reports for DX Cloud Infra Group.
+            </li>
+          </ul>
+          <ul class="project-links">
+            <li><a href="https://github.com/jihwimin/my-mobile-mcp" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://www.canva.com/design/DAGuaBZW25A/LITSEElVeZwJyZMCTLFlcQ/view?utm_content=DAGuaBZW25A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb8622baa02w" target="_blank">Presentation</a></li>
+          </ul>
+        </div>
+      </section>
 
       <!-- DeepShield Section-->
       <section id="deepshield">
