@@ -261,3 +261,57 @@ body {
     text-decoration: underline;
   }
   
+
+/* Project Section Style (Purple Background) */
+.project-section {
+  background-color: #f3e5f5; /* Soft purple */
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 30px;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-section h2 {
+  color: #6a1b9a;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project-content ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.project-content li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.project-logo {
+  width: 120px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.project-links {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.project-links li {
+  margin-bottom: 8px;
+}
+
+.project-links a {
+  color: #6a1b9a;
+  text-decoration: underline;
+  font-weight: bold;
+}
